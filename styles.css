@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: #000;
+}
+
+main {
+    padding: 120px 160px 0px 160px;
+}
+
+.intro {
+    margin-bottom: 64px;
+    display: flex;
+}
+
+.intro h1 {
+    font-size: 72px;
+    color: #1f1f1f;
+    line-height: 1.2;
+}
+
+.intro h2 {
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 16px;
+    color: #48484A;
+}
+
+.intro img {
+    width: 640px; /* Responsive */
+    margin-left: auto;
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -160px;
+}
+
+.works h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #48484A;
+}
+
+.works a {
+    text-decoration: none;
+}
+
+.project {
+    height: 420px;
+    padding: 48px;
+    margin-bottom: 96px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.project h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #777;
+}
+
+.project:hover {
+    background-color: #f0f0f0;
+}
+
+.description {
+    max-width: 500px;
+}
+
+.description a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.about_me {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.description h1{
+    font-size: 36px;
+    /*margin-bottom: 8px;*/
+    color: #1f1f1f;
+}
+
+.description h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.description h3{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 16px;
+    color: #48484A;
+}
+
+.about_me img {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    /*border-top: 1px solid #ddd;*/
+    margin-top: 50px;
+    color: #777;
+}
