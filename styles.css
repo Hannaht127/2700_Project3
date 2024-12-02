@@ -87,6 +87,10 @@ main {
 }
 
 .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
     height: 420px;
     padding: 48px;
     margin-bottom: 96px;
@@ -108,7 +112,12 @@ main {
     background-color: #f0f0f0;
 }
 
-.description {
+.images {
+    display: flex;
+    gap: 12px;
+}
+
+.description .maxLimit{
     max-width: 500px;
 }
 
@@ -117,9 +126,43 @@ main {
     color: #1f1f1f;
 }
 
+.balance {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.balance-item img {
+    width: 20%;
+    height: auto;
+    margin-left: 240px;
+}
+
+.balance-item {
+    display: flex;
+    flex-direction: row;
+}
+
 .about_me {
     display: flex;
     margin-bottom: 120px;
+}
+
+.playground {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.playground img {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+}
+
+.playground video {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
 }
 
 .description h1{
@@ -154,3 +197,4 @@ footer {
     margin-top: 50px;
     color: #777;
 }
+
